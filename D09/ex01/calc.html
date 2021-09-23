@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Calc</title>
+	</head>
+	<body>
+		<input type="text" id="id_left" name="left">
+		<select name="op" id="id_op">
+  			<option value="add">+</option>
+  			<option value="sub">-</option>
+  			<option value="mult">*</option>
+  			<option value="div">/</option>
+  			<option value="mod">%</option>
+		</select>
+		<input type="text" id="id_right" name="right">
+		<input type="submit" id="id_submit" name="submit" value="Try me!">
+	</body>
+	<script>
+		setInterval("alert('Please, use me...')", 30000)
+		document.getElementById("id_submit").addEventListener("click", ft_calc);
+
+		var left,
+		right,
+		op;
+
+		function ft_calc() {
+
+			left = Number(document.getElementById("id_left").value);
+			right = Number(document.getElementById("id_right").value);
+			op = document.getElementById("id_op").value;
+
+			if (!(
+				left >= 0
+				&& right >= 0
+				&& left === parseInt(document.getElementById("id_left").value)
+				&& right === parseInt(document.getElementById("id_right").value)
+				)) {
+				console.log('Error :(');
+				alert('Error :(');
+				return 0;
+			}
+			if ((op === 'div' || op === 'mod') && right === 0) {
+				console.log("It's over 9000!");
+				alert("It's over 9000!");
+				return 0;
+			}
+			switch(op) {
+				case "add":
+					console.log(left + right);
+					alert(left + right);
+					break;
+				case "sub":
+					console.log(left - right);
+					alert(left - right);
+					break;
+				case "mult":
+					console.log(left * right);
+					alert(left * right);
+					break;
+				case "div":
+					console.log(left / right);
+					alert(left / right);
+					break;
+				case "mod":
+					console.log(left % right);
+					alert(left % right);
+					break;
+			}
+		}
+	</script>
+</html>

@@ -1,0 +1,215 @@
+.body {
+	overflow: hidden;
+	margin-left: -26px;
+	background-color: #505050;
+
+	/*border: dashed 3px black;*/
+}
+.top {
+	margin: auto;
+	margin-top: 18px;
+	background: #919191;
+	border-radius: 10px;
+	width: 1420px;
+	height: 137px;
+	box-shadow: 10px 10px 7px black;
+}
+.doftimg {
+	margin: 10px;
+	width: 426px;
+	height: 110px;
+}
+.loupeimg {
+	float: right;
+	position: relative;
+	bottom: 120px;
+	right: 10px;
+}
+.closeimg {
+	float: right;
+	position: relative;
+	bottom: 23px;
+	right: 10px;
+}
+.reloadimg {
+	height: 20px;
+	width: 20px;
+	float: right;
+	position: relative;
+	right: 10px;
+	top: 10px;
+}
+.supgrid {
+	display: grid;
+	grid-template-columns: 100vw;
+	margin-top: 20px;
+	margin-left: 9px;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: 200px 1020px 200px;
+	margin: auto;
+
+	/*border: dashed 3px red;*/
+}
+.grid-container > div {
+	margin: auto;
+	margin-top: 0px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 7px black;
+
+	/*border: dotted 3px blue;*/
+}
+.left {
+	background: #919191;
+	height: 425px;
+	width: 140px;
+}
+.middle {
+	background: #919191;
+	width: 1020px;
+	height: 583px;
+}
+
+.right {
+	background: #919191;
+	height: 425px;
+	width: 140px;
+}
+.arrowimg {
+	height: 70px;
+	width: 70px;
+	position: relative;
+	left: 32px;
+	top: 15px;
+}
+
+.fistimg {
+	height: 70px;
+	width: 70px;
+	position: relative;
+	left: 32px;
+	top: 25px;
+}
+
+.eyeimg {
+	height: 65px;
+	width: 70px;
+	position: relative;
+	left: 26px;
+	top: 30px;
+	border: solid 6px red;
+	border-radius: 5px;
+}
+
+.toolimg {
+	height: 70px;
+	width: 70px;
+	position: relative;
+	left: 32px;
+	top: 35px;
+}
+
+.speechimg {
+	height: 68px;
+	width: 70px;
+	position: relative;
+	left: 32px;
+	top: 45px;
+}
+
+.clusterimg {
+	position: relative;
+	left: 11px;
+	top: 11px;
+	width: 998px;
+	height: 561px;
+}
+
+.bookimg {
+	height: 96px;
+	width: 65px;
+	position: relative;
+	top: 15px;
+	left: 35px;
+}
+
+.towelimg {
+	height: 50px;
+	width: 73px;
+	position: relative;
+	top: 26px;
+	left: 35px;	
+}
+
+.walltable {
+	position: relative;
+	top: 31px;
+	left: 10px;
+}
+
+.halfimg {
+	clip-path: inset(100% 100% 100% 75%);
+}
+
+.partwallimg {
+	clip-path: inset(6px 100% 100% 100%);
+}
+
+.parthalfwallimg {
+	clip-path: inset(6px 100% 100% 75%);
+}
+
+.txtbox {
+	background: #88ff89;
+	width: 510px;
+	height: 160px;
+	position: relative;
+	top: -77px;
+	left: -45px;
+	padding-top: 10px;
+	padding-left: 10px;
+
+	/*border: dotted 3px green;*/
+}
+
+.txt1 {
+	font-family: sans-serif;
+	letter-spacing: 0.65px;
+	font-size: 17px;
+  	text-align: left;
+}
+
+.txt2 {
+	font-family: Georgia, serif;
+	font-size: 32px;
+	letter-spacing: 0.65px;
+	text-align: left;
+}
+
+.txt3 {
+	font-family: sans-serif;
+	letter-spacing: 0.65px;
+	font-size: 17px;
+  	text-align: left;
+  	text-shadow: 5px 5px 5px red;
+}
+
+.txt4 {
+	font-family: sans-serif;
+	letter-spacing: 0.65px;
+	font-size: 17px;
+  	text-align: left;
+	font-style: italic;
+}
+
+.form {
+	width: 383px;
+	height: 20px;
+	margin-left: 2px;
+	border: solid #9d969d 1px;
+}
+
+.button {
+	background: linear-gradient(#f0f0f0, #dcdcdc);
+}
